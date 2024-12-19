@@ -1,0 +1,40 @@
+:root {
+    --ifm-color-primary: #ed225d;
+    --ifm-color-primary-dark: #e01251;
+    --ifm-color-primary-darker: #d4114c;
+    --ifm-color-primary-darkest: #af0e3f;
+    --ifm-color-primary-light: #ef3b6f;
+    --ifm-color-primary-lighter: #f04778;
+    --ifm-color-primary-lightest: #f36d94;
+    
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  }
+  
+  [data-theme='dark'] {
+    --ifm-background-color: #1a1b1e;
+    --ifm-navbar-background-color: #1a1b1e;
+    --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+  }
+  
+  .p5-sketch-container {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .editor-wrapper {
+    margin: 1rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .example-description {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: rgba(237, 34, 93, 0.1);
+    border-left: 4px solid var(--ifm-color-primary);
+    border-radius: 4px;
+  }
