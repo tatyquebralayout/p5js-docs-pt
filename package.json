@@ -1,7 +1,23 @@
 {
+<<<<<<< HEAD
   "name": "p-5-js-docs-pt",
   "version": "0.0.0",
   "private": true,
+=======
+  "name": "p5js-docs-pt",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@docusaurus/core": "^3.6.3",
+    "@docusaurus/preset-classic": "^3.6.3",
+    "@docusaurus/theme-live-codeblock": "^3.6.3",
+    "@docusaurus/theme-mermaid": "^3.6.3",
+    "@jridgewell/sourcemap-codec": "^1.5.0",
+    "@p5-wrapper/react": "^4.4.2",
+    "glob": "^11.0.0",
+    "rimraf": "^6.0.1"
+  },
+>>>>>>> 398f72e38caa42e49ad210ce63c20fbbcb29788a
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -14,6 +30,7 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc"
   },
+<<<<<<< HEAD
   "dependencies": {
     "@docusaurus/core": "3.6.3",
     "@docusaurus/preset-classic": "3.6.3",
@@ -43,5 +60,11 @@
   },
   "engines": {
     "node": ">=18.0"
+=======
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "^3.6.3",
+    "@tsconfig/docusaurus": "^2.0.3",
+    "typescript": "^5.7.2"
+>>>>>>> 398f72e38caa42e49ad210ce63c20fbbcb29788a
   }
 }
